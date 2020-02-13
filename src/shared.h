@@ -1,5 +1,5 @@
-#include "VapourSynth.h"
-#include "VSHelper.h"
+#include <VapourSynth.h>
+#include <VSHelper.h>
 
 #if defined(_MSC_VER)
 #define _ALLOW_KEYWORD_MACROS

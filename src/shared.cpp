@@ -35,7 +35,7 @@ static __forceinline uint32_t aligned_diff(const uint8_t *sp1, int32_t spitch1, 
         sp2 += spitch2;
         counter = hblocks;
     } while (--height > 0);
-    
+
     xmm0 = _mm_add_epi32(xmm0, xmm1);
     return (uint32_t)_mm_cvtsi128_si32(xmm0);
 }
